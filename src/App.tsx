@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-700">
-      <div className="w-full max-w-md bg-black/40 backdrop-blur-lg p-10 rounded-2xl shadow-lg text-white">
+      <div className="w-full max-w-md bg-black/40 backdrop-blur-lg p- rounded-2xl shadow-lg text-white">
         {/* Title */}
         <h1 className="text-3xl font-bold text-center mb-6">
           <TiWeatherPartlySunny className="inline-block mr-2 text-yellow-400" />
