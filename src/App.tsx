@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-700">
-      <div className="w-full max-w-md bg-black/40 backdrop-blur-lg p- rounded-2xl shadow-lg text-white">
+      <div className="w-full max-w-md bg-black/40 backdrop-blur-lg p-6 rounded-2xl shadow-lg text-white">
         {/* Title */}
         <h1 className="text-3xl font-bold text-center mb-6">
           <TiWeatherPartlySunny className="inline-block mr-2 text-yellow-400" />
@@ -75,7 +75,7 @@ function App() {
 
         {/* Weather result */}
         {weather && (
-          <div className="mt-10 w-full max-w-md rounded-xl bg-white/10 p-6 text-center shadow-lg backdrop-blur-md">
+          <div className="mt-10 w-full max-w-md rounded-xl bg-white/10 p-8 text-center shadow-lg backdrop-blur-md">
             <h2 className="text-2xl font-semibold">
               {weather.city}, {weather.country}
             </h2>
